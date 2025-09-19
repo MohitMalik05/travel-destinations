@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -66,9 +66,9 @@ td p {
 
 /* Images */
 td img {
-  width: 220px;        /* fixed width */
-  height: 150px;       /* fixed height */
-  object-fit: cover;   /* keeps proportions and crops nicely */
+  width: 220px;        
+  height: 150px;       
+  object-fit: cover;   
   display: block;
   margin: auto;
   border-radius: 8px;
@@ -80,7 +80,7 @@ td img:hover {
   transform: scale(1.05);
 }
 
-/* Make text and image align better */
+
 td {
   vertical-align: middle;
 }
